@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomSectionHeaderView" customModule="LastFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APO-By-b5q" customClass="SearchView" customModule="LastFM" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="47C-3R-9pN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kjh-C2-cMN" customClass="SelectionView" customModule="LastFM" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="50" width="414" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="bHh-EU-Ehh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="APO-By-b5q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="1lH-yi-4F0"/>
+                <constraint firstItem="Kjh-C2-cMN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9Kh-ZK-XwF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="APO-By-b5q" secondAttribute="trailing" id="CZG-Jp-wmg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Kjh-C2-cMN" secondAttribute="trailing" id="Mhi-FS-2MY"/>
+                <constraint firstItem="Kjh-C2-cMN" firstAttribute="top" secondItem="APO-By-b5q" secondAttribute="bottom" id="RIH-1M-V2C"/>
+                <constraint firstItem="APO-By-b5q" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZIw-Cw-5t5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Kjh-C2-cMN" secondAttribute="bottom" id="p5T-R9-TQk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="searchView" destination="APO-By-b5q" id="BMl-U9-Z1T"/>
+                <outlet property="selectionView" destination="Kjh-C2-cMN" id="hrF-6O-GAq"/>
+            </connections>
+            <point key="canvasLocation" x="138.75" y="-287.85211267605632"/>
+        </view>
+    </objects>
+</document>

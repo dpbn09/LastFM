@@ -1,0 +1,24 @@
+PODS:
+  - Cuckoo (1.4.1):
+    - Cuckoo/Swift (= 1.4.1)
+  - Cuckoo/Swift (1.4.1)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+
+DEPENDENCIES:
+  - Cuckoo
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Cuckoo
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Cuckoo: 4625f7f54d9bb880123270e8969898d6c1d036b5
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+
+PODFILE CHECKSUM: d815b3fa7e1404bdec99c196153dc9de5f2c90fa
+
+COCOAPODS: 1.9.3
