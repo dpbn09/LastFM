@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: LastFM/APIService/HTTPManager.swift at 2020-09-09 07:24:25 +0000
+// MARK: - Mocks generated from file: LastFM/APIService/HTTPManager.swift at 2020-09-09 10:49:55 +0000
 
 //
 //  APIManager.swift
@@ -269,7 +269,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: LastFM/ViewModel/DetailViewModel.swift at 2020-09-09 07:24:25 +0000
+// MARK: - Mocks generated from file: LastFM/ViewModel/DetailViewModel.swift at 2020-09-09 10:49:55 +0000
 
 //
 //  DetailViewModel.swift
@@ -375,7 +375,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: LastFM/ViewModel/SearchViewModel.swift at 2020-09-09 07:24:25 +0000
+// MARK: - Mocks generated from file: LastFM/ViewModel/SearchViewModel.swift at 2020-09-09 10:49:55 +0000
 
 //
 //  ViewModel.swift
